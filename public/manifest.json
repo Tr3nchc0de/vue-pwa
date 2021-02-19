@@ -16,11 +16,11 @@
             "src": "/favicon/mstile-144x144.png",
             "sizes": "144x144",
             "type": "image/png",
-            "any": "maskable"
+            "purpose": "any maskable"
         }
 
     ],
-    "start_url": "index.html",
+    "start_url": "/",
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "display": "standalone"
