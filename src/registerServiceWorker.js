@@ -30,15 +30,7 @@ if (process.env.NODE_ENV === 'production') {
     }
   })
 
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('service-worker.js', { scope: '/' }).then(function(reg) {
-      // Registrierung erfolgreich
-      console.log('Registrierung erfolgreich. Scope ist ' + reg.scope);
-    }).catch(function(error) {
-      // Registrierung fehlgeschlagen
-      console.log('Registrierung fehlgeschlagen mit ' + error);
-    });
-  }
+
 
 
 }
